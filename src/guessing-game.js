@@ -16,11 +16,11 @@ class GuessingGame {
     }
 
     lower() {
-        this.range = this.range.slice(0 , this.range.indexOf(this.guess()))
+        this.range = this.range.slice(0, this.range.indexOf(this.guess()));
     }
 
     greater() {
-        this.range = this.range.slice(this.range.indexOf(this.guess()) + 1, this.range.length)
+        this.range = this.range.slice(this.range.indexOf(this.guess()) + 1, this.range.length);
     }
 }
 
